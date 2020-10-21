@@ -50,14 +50,7 @@ footer >p   {
   text-align: right;
 }
 
-div{
-  border: 10px solid #000000;
-  background: #5DEAA8;
-  height: 100px;
-  width: 200px;
-  padding: 10px;
-  margin: 10px;
-}
+
 
 td, th {
      border: 1px solid #000000;
@@ -67,6 +60,20 @@ td, th {
 /*especificidad -> 2*/
 table td{
     text-align: center;
+}
+
+div
+{
+border:0px solid;
+padding:10px 40px; 
+width:600px;
+resize:both;
+overflow:auto;
+}
+
+table
+{
+    width: 100%;
 }
 
 nav   {
