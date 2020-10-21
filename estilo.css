@@ -55,6 +55,7 @@ footer >p   {
 td, th {
      border: 1px solid #000000;
      padding: 8px;
+     line-height: 25px;
 }
 
 /*especificidad -> 2*/
