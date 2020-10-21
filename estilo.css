@@ -2,7 +2,7 @@
  body {
     padding-left: 11em;
     padding-right: 11em;
-    font: 400 15px Tahoma; /*Familia sans-serif*/
+    font: 400 1em Tahoma, sans-serif;
     line-height: 1.8;
     color: #818181;
     background-color: rgb(233, 205, 173);

@@ -1,0 +1,171 @@
+/*especificidad -> 11*/
+body {
+    font: 400 1em Tahoma, sans-serif;
+    line-height: 1.8;
+    color: white;
+    background-color: black;
+}
+
+/*especificidad -> 1*/
+nav {
+    display: flex;
+  }
+
+/*especificidad -> 2*/
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 0.93em 1.56em;
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+/*especificidad -> 12*/
+nav a:hover {
+    background-color: orange;
+    color: white;
+}
+
+/*especificidad -> 1*/
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 1.5em;
+}
+
+/*especificidad -> 1*/
+h2{
+    text-align: left;
+    background-color: black;
+    color: #FE642E;
+    text-transform: capitalize;
+    margin-left: 1.3em;
+}
+
+/*especificidad -> 1*/
+p{
+    text-align: justify;
+    margin-bottom: 1.8em;
+    margin-left: 1.9em;
+    margin-right: 1.8em;
+}
+
+/*especificidad -> 1*/
+ul{
+    text-align: left;
+    margin-top: 1.25em;
+    margin-bottom: 2.5em;
+    margin-left: 3em;
+    margin-right: 2.5em;
+}
+
+/* unvisited link */
+/*especificidad -> 11*/
+a:link {
+    background-color: black;
+    color:white;
+    text-decoration: none;
+}
+  
+/* visited link */
+/*especificidad -> 11*/
+a:visited {
+    background-color: black;
+    color: #FE642E;
+    text-decoration: none;
+}
+
+/* mouse over link */
+/*especificidad -> 11*/
+a:hover {
+    background-color: black;
+    color: yellow;
+    text-decoration: none;
+}
+
+/* selected link */
+/*especificidad -> 11*/
+a:active{
+    background-color: black;
+    text-decoration: underline;
+}
+
+/*especificidad -> 1*/
+caption{
+    font: 400 1.5em Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-bottom: 0.6em;
+}
+
+/*especificidad -> 1*/
+table{
+    border-collapse: collapse;
+    text-align: center;
+    margin-top: 1.25em;
+    margin-bottom:2.5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*especificidad -> 1*/
+th{
+    font-style: italic;
+    background-color: black;
+    color: white;
+}
+/*especificidad -> 1*/
+
+/*especificidad -> 1*/
+tr, td, th{ 
+    font-size: 1.2em;
+    border: 0.05em solid white;}
+
+
+/*especificidad -> 2*/
+table td{
+    text-align: center;
+}
+
+/*especificidad -> 100*/
+#caratula{
+    display: block;
+    margin: auto;
+}
+
+/*especificidad -> 100*/
+#theGuardianLogo{
+    margin-left: 1.9em;
+    margin-right: 1em;
+    width: 3.4em; height: 3.4em;
+    float: left;
+}
+
+/*especificidad -> 100*/
+#empireLogo{
+    margin-left: 1.9em;
+    margin-right: 1em;
+    width: 8.5em; height: 3.4em;
+    float: left;
+}
+
+/*especificidad -> 100*/
+#larsenOnFilmLogo{
+    margin-left: 1.9em;
+    margin-right: 1em;
+    width: 8.5em; height: 3.4em;
+    float: left;
+}
+
+/*especificidad -> 100*/
+#critica_terminator{
+    margin-bottom: 1.8em;
+    margin-left: 1.9em;
+    margin-right: 1.8em;
+    width: 20em;
+}
