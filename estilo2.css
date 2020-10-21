@@ -9,6 +9,7 @@ body {
 /*especificidad -> 1*/
 nav {
     display: flex;
+    line-height: 100px;
   }
 
 /*especificidad -> 2*/
@@ -21,6 +22,7 @@ nav a {
     color: white;
     margin: 0;
     font-family: sans-serif;
+    
 }
 
 /*especificidad -> 12*/
